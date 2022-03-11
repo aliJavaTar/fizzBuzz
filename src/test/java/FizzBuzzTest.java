@@ -23,11 +23,11 @@ class FizzBuzzTest {
     @Test
     private void bakhpazerBar_5() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String result1 = fizzBuzz.play(3);
+        String result1 = fizzBuzz.play(5);
         Assertions.assertEquals("Fizz", result1);
-        String result2 = fizzBuzz.play(33);
+        String result2 = fizzBuzz.play(10);
         Assertions.assertEquals("Fizz", result2);
-        String result3 = fizzBuzz.play(12);
+        String result3 = fizzBuzz.play(25);
         Assertions.assertEquals("Fizz", result3);
     }
     private void bakhshpazirBar_3_va_5(){
